@@ -227,7 +227,7 @@ class CameraMonitorApp(QMainWindow):
         main_layout = QVBoxLayout()
         central_widget.setLayout(main_layout)
         main_layout.setSpacing(10)
-        main_layout.setContentsMargins(10, 10, 10, 2)
+        main_layout.setContentsMargins(10, 5, 10, 0)
         
         # Main camera view (640x480)
         self.main_view = VideoLabel(640, 480, "Front")
@@ -235,7 +235,7 @@ class CameraMonitorApp(QMainWindow):
         
         # Thumbnail views (320x240 each)
         thumbnails_layout = QHBoxLayout()
-        thumbnails_layout.setSpacing(10)
+        thumbnails_layout.setSpacing(5)
         
         self.thumbnails = []
         labels = ["Left", "Back", "Right"]
