@@ -32,6 +32,12 @@ sudo apt-get install -y ffmpeg python3-pip python3-dev
 pip3 install -r requirements.txt
 ```
 
+或者sudo下载：
+
+```bash
+sudo apt install python3-pyqt6 python3-opencv python3-numpy
+```
+
 或者使用虚拟环境：
 
 ```bash
